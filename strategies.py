@@ -17,7 +17,7 @@ def name_contest_strategy(bid, partial_ad, bidder_company_name, company_names):
     elif last_mentioned_company == "":
         relevance = 1.5
     elif company_mentioned_in_current_sentence:
-        relevance = 0
+        relevance = 0.001
     elif not company_mentioned_in_current_sentence and last_mentioned_company == bidder_company_name:
         relevance = 1
     elif not company_mentioned_in_current_sentence and last_mentioned_company != bidder_company_name:
@@ -43,7 +43,7 @@ def name_first_strategy(bid, partial_ad, bidder_company_name, company_names):
     elif last_mentioned_company == "":
         relevance = 0.5
     elif company_mentioned_in_current_sentence:
-        relevance = 0
+        relevance = 0.001
     elif not company_mentioned_in_current_sentence and last_mentioned_company == bidder_company_name:
         relevance = 1
     elif not company_mentioned_in_current_sentence and last_mentioned_company != bidder_company_name:
