@@ -1,0 +1,80 @@
+{
+    "Alpha Airlines": {
+        "individual_results": [
+            {
+                "outcome": "At the heart of paradise, the Beta Resort awaits your arrival. Dive into the crystal-clear waters of Hawaii's azure seas, where Alpha Airlines helms your journey to the ultimate destination.",
+                "outcome_length": 190,
+                "num_of_tokens": 37,
+                "name_appeared": 1,
+                "avg_chosen_token_probability": 0.3897513414204523,
+                "name_appearance_score": 0.3263157894736842,
+                "llm_evaluation_score": 6,
+                "payment": 6.1926493644714355,
+                "avg_payment_per_token": 0.16736890174247124,
+                "avg_token_payment_prob_ratio": 0.24458127901186208
+            },
+            {
+                "outcome": "At the heart of paradise, the Beta Resort awaits your arrival. Here, the Alpha Airlines flight to Hawaii takes you to the heart of paradise, where the Beta Resort awaits your arrival.",
+                "outcome_length": 183,
+                "num_of_tokens": 37,
+                "name_appeared": 1,
+                "avg_chosen_token_probability": 0.4299850514460657,
+                "name_appearance_score": 0.6010928961748634,
+                "llm_evaluation_score": 6,
+                "payment": 7.96743106842041,
+                "avg_payment_per_token": 0.21533597482217326,
+                "avg_token_payment_prob_ratio": 0.22103470255732355
+            }
+        ],
+        "averages": {
+            "name_appeared": 1.0,
+            "avg_prob": 0.409868196433259,
+            "name_appear_score": 0.4637043428242738,
+            "payment": 7.080040216445923,
+            "llm_score": 6.0,
+            "avg_pay_token": 0.19135243828232223,
+            "avg_pay_prob_ratio": 0.2328079907845928
+        }
+    },
+    "Beta Resort": {
+        "individual_results": [
+            {
+                "outcome": "At the heart of paradise, the Beta Resort awaits your arrival. Dive into the crystal-clear waters of Hawaii's azure seas, where Alpha Airlines helms your journey to the ultimate destination.",
+                "outcome_length": 190,
+                "num_of_tokens": 37,
+                "name_appeared": 1,
+                "avg_chosen_token_probability": 0.4222191513289471,
+                "name_appearance_score": 0.8421052631578947,
+                "llm_evaluation_score": 7,
+                "payment": 9.908398628234863,
+                "avg_payment_per_token": 0.26779455751986114,
+                "avg_token_payment_prob_ratio": 0.24726057776928298
+            },
+            {
+                "outcome": "At the heart of paradise, the Beta Resort awaits your arrival. Here, the Alpha Airlines flight to Hawaii takes you to the heart of paradise, where the Beta Resort awaits your arrival.",
+                "outcome_length": 183,
+                "num_of_tokens": 37,
+                "name_appeared": 1,
+                "avg_chosen_token_probability": 0.4540029433933464,
+                "name_appearance_score": 0.8360655737704918,
+                "llm_evaluation_score": 7,
+                "payment": 12.00879955291748,
+                "avg_payment_per_token": 0.3245621500788508,
+                "avg_token_payment_prob_ratio": 0.2294576503101259
+            }
+        ],
+        "averages": {
+            "name_appeared": 1.0,
+            "avg_prob": 0.43811104736114675,
+            "name_appear_score": 0.8390854184641933,
+            "payment": 10.958599090576172,
+            "llm_score": 7.0,
+            "avg_pay_token": 0.296178353799356,
+            "avg_pay_prob_ratio": 0.23835911403970444
+        }
+    },
+    "averages": {
+        "avg_outcome_length": 186.5,
+        "avg_num_of_tokens": 37.0
+    }
+}

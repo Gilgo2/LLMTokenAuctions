@@ -1,0 +1,56 @@
+{
+    "Alpha Airlines": {
+        "individual_results": [
+            {
+                "outcome": "At the heart of paradise, the Beta Resort awaits your arrival. Here, the Alpha Airlines flight to Hawaii lands, and the journey begins.",
+                "outcome_length": 135,
+                "num_of_tokens": 28,
+                "name_appeared": 1,
+                "avg_chosen_token_probability": 0.3519853193512453,
+                "name_appearance_score": 0.45925925925925926,
+                "llm_evaluation_score": 7,
+                "payment": 6.065465927124023,
+                "avg_payment_per_token": 0.21662378311157227,
+                "avg_token_payment_prob_ratio": 0.2615043985343536
+            }
+        ],
+        "averages": {
+            "name_appeared": 1.0,
+            "avg_prob": 0.3519853193512453,
+            "name_appear_score": 0.45925925925925926,
+            "payment": 6.065465927124023,
+            "llm_score": 7.0,
+            "avg_pay_token": 0.21662378311157227,
+            "avg_pay_prob_ratio": 0.2615043985343536
+        }
+    },
+    "Beta Resort": {
+        "individual_results": [
+            {
+                "outcome": "At the heart of paradise, the Beta Resort awaits your arrival. Here, the Alpha Airlines flight to Hawaii lands, and the journey begins.",
+                "outcome_length": 135,
+                "num_of_tokens": 28,
+                "name_appeared": 1,
+                "avg_chosen_token_probability": 0.35348914563655853,
+                "name_appearance_score": 0.7777777777777778,
+                "llm_evaluation_score": 7,
+                "payment": 9.242021560668945,
+                "avg_payment_per_token": 0.3300721985953195,
+                "avg_token_payment_prob_ratio": 0.2801878427253945
+            }
+        ],
+        "averages": {
+            "name_appeared": 1.0,
+            "avg_prob": 0.35348914563655853,
+            "name_appear_score": 0.7777777777777778,
+            "payment": 9.242021560668945,
+            "llm_score": 7.0,
+            "avg_pay_token": 0.3300721985953195,
+            "avg_pay_prob_ratio": 0.2801878427253945
+        }
+    },
+    "averages": {
+        "avg_outcome_length": 135.0,
+        "avg_num_of_tokens": 28.0
+    }
+}
