@@ -56,6 +56,37 @@ def name_first_strategy(bid, partial_ad, bidder_company_name, company_names):
 
     return new_bid
 
+def decreasing_based_on_position_strategy(bid, partial_ad, bidder_company_name, company_names):
+    """
+    This function decreases the original bid based on the length of the current ad (partial ad). 
+    The longer the ad, the lower the bid.
+    
+    Parameters:
+        bid (float): The original bid from the bidder company.
+        partial_ad (str): The current partially generated ad text.
+        bidder_company_name (str): The name of the company that is bidding.
+        company_names (list): A list of company names participating in the bidding process.
+    
+    Returns:
+        adjusted_bid (float): The adjusted bid after applying the decreasing strategy.
+    """
+
+    # Get the length of the partial ad (number of characters or words)
+    partial_ad_length = len(partial_ad.split()) 
+    
+    # Define a rate or formula to decrease the bid based on the partial ad length
+    # Decrease the bid by 3 percentage of the original bid for each character (or word)
+    decrease_factor = 0.03
+    
+    # Calculate the adjusted bid
+    adjusted_bid = bid - (partial_ad_length * decrease_factor * bid)
+    
+    # Ensure the bid doesn't go below a minimum (e.g., zero or some other value)
+    adjusted_bid = max(0, adjusted_bid)
+    
+    return adjusted_bid
+
+
 
 
 

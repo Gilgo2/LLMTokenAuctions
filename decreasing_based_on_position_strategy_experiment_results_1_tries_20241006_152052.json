@@ -1,0 +1,56 @@
+{
+    "Alpha Airlines": {
+        "individual_results": [
+            {
+                "outcome": "At the heart of paradise, the Beta Resort awaits",
+                "outcome_length": 48,
+                "num_of_tokens": 10,
+                "name_appeared": 0,
+                "avg_chosen_token_probability": 0.264628267288208,
+                "name_appearance_score": 0,
+                "llm_evaluation_score": -1,
+                "payment": 1.1246061325073242,
+                "avg_payment_per_token": 0.11246061325073242,
+                "avg_token_payment_prob_ratio": 0.5724018448264621
+            }
+        ],
+        "averages": {
+            "name_appeared": 0.0,
+            "avg_prob": 0.264628267288208,
+            "name_appear_score": 0.0,
+            "payment": 1.1246061325073242,
+            "llm_score": -1.0,
+            "avg_pay_token": 0.11246061325073242,
+            "avg_pay_prob_ratio": 0.5724018448264621
+        }
+    },
+    "Beta Resort": {
+        "individual_results": [
+            {
+                "outcome": "At the heart of paradise, the Beta Resort awaits",
+                "outcome_length": 48,
+                "num_of_tokens": 10,
+                "name_appeared": 1,
+                "avg_chosen_token_probability": 0.5332254290580749,
+                "name_appearance_score": 0.375,
+                "llm_evaluation_score": -1,
+                "payment": 1.693827748298645,
+                "avg_payment_per_token": 0.1693827748298645,
+                "avg_token_payment_prob_ratio": 0.7560908921004696
+            }
+        ],
+        "averages": {
+            "name_appeared": 1.0,
+            "avg_prob": 0.5332254290580749,
+            "name_appear_score": 0.375,
+            "payment": 1.693827748298645,
+            "llm_score": -1.0,
+            "avg_pay_token": 0.1693827748298645,
+            "avg_pay_prob_ratio": 0.7560908921004696
+        }
+    },
+    "averages": {
+        "avg_outcome_length": 48.0,
+        "avg_num_of_tokens": 10.0
+    }
+}
