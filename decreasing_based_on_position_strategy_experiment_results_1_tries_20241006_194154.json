@@ -1,0 +1,56 @@
+{
+    "Alpha Airlines": {
+        "individual_results": [
+            {
+                "outcome": "At the heart of paradise, the Beta Resort awaits your arrival. Here, the Alpha Airlines flight takes",
+                "outcome_length": 100,
+                "num_of_tokens": 20,
+                "name_appeared": 1,
+                "avg_chosen_token_probability": 0.3156715610995889,
+                "name_appearance_score": 0.27,
+                "llm_evaluation_score": 6,
+                "payment": 1.9294402599334717,
+                "avg_payment_per_token": 0.09647201299667359,
+                "avg_token_payment_prob_ratio": 0.4024299134842077
+            }
+        ],
+        "averages": {
+            "name_appeared": 1.0,
+            "avg_prob": 0.3156715610995889,
+            "name_appear_score": 0.27,
+            "payment": 1.9294402599334717,
+            "llm_score": 6.0,
+            "avg_pay_token": 0.09647201299667359,
+            "avg_pay_prob_ratio": 0.4024299134842077
+        }
+    },
+    "Beta Resort": {
+        "individual_results": [
+            {
+                "outcome": "At the heart of paradise, the Beta Resort awaits your arrival. Here, the Alpha Airlines flight takes",
+                "outcome_length": 100,
+                "num_of_tokens": 20,
+                "name_appeared": 1,
+                "avg_chosen_token_probability": 0.38056068159639833,
+                "name_appearance_score": 0.7,
+                "llm_evaluation_score": 4,
+                "payment": 2.879155397415161,
+                "avg_payment_per_token": 0.14395776987075806,
+                "avg_token_payment_prob_ratio": 0.42711109903387656
+            }
+        ],
+        "averages": {
+            "name_appeared": 1.0,
+            "avg_prob": 0.38056068159639833,
+            "name_appear_score": 0.7,
+            "payment": 2.879155397415161,
+            "llm_score": 4.0,
+            "avg_pay_token": 0.14395776987075806,
+            "avg_pay_prob_ratio": 0.42711109903387656
+        }
+    },
+    "averages": {
+        "avg_outcome_length": 100.0,
+        "avg_num_of_tokens": 20.0
+    }
+}
