@@ -1,0 +1,94 @@
+{
+    "Alpha Airlines": {
+        "input": {
+            "bid": 3.0,
+            "strategy": "naive_strategy",
+            "budget": 1000,
+            "company_name": "Alpha Resort"
+        },
+        "individual_results": [
+            {
+                "outcome": "Experience the ultimate in relaxation and adventure at the Beta Resort, where the Beta Resort is the ultimate in relaxation and adventure. Dive into the crystal-clear waters of the Pacific Ocean, or simply bask in the warm, tropical sun.",
+                "outcome_length": 237,
+                "num_of_tokens": 45,
+                "name_appeared": 0,
+                "avg_chosen_token_probability": 0.4139639728029983,
+                "name_appearance_score": 0,
+                "llm_evaluation_score": 2,
+                "payment": 12.429741859436035,
+                "avg_payment_per_token": 0.2762164857652452,
+                "avg_token_payment_prob_ratio": 0.06979655470682126
+            },
+            {
+                "outcome": "At Alpha Airlines, we're excited to whisk you away to the tropical paradise of Hawaii. Experience the magic of the Beta Resort, where the sun, sand, and spectacular views await you.",
+                "outcome_length": 181,
+                "num_of_tokens": 38,
+                "name_appeared": 0,
+                "avg_chosen_token_probability": 0.5061748727518869,
+                "name_appearance_score": 0,
+                "llm_evaluation_score": 3,
+                "payment": 10.232962608337402,
+                "avg_payment_per_token": 0.26928848969308955,
+                "avg_token_payment_prob_ratio": 0.46817604162722626
+            }
+        ],
+        "averages": {
+            "name_appeared": 0.0,
+            "avg_prob": 0.46006942277744256,
+            "name_appear_score": 0.0,
+            "payment": 11.331352233886719,
+            "llm_score": 2.5,
+            "avg_pay_token": 0.2727524877291674,
+            "avg_pay_prob_ratio": 0.26898629816702374
+        }
+    },
+    "Beta Resort": {
+        "input": {
+            "bid": 3.0,
+            "strategy": "naive_strategy",
+            "budget": 1000,
+            "company_name": "Beta Resort"
+        },
+        "individual_results": [
+            {
+                "outcome": "Experience the ultimate in relaxation and adventure at the Beta Resort, where the Beta Resort is the ultimate in relaxation and adventure. Dive into the crystal-clear waters of the Pacific Ocean, or simply bask in the warm, tropical sun.",
+                "outcome_length": 237,
+                "num_of_tokens": 45,
+                "name_appeared": 1,
+                "avg_chosen_token_probability": 0.5247489023539755,
+                "name_appearance_score": 0.7510548523206751,
+                "llm_evaluation_score": 5,
+                "payment": 12.860664367675781,
+                "avg_payment_per_token": 0.28579254150390626,
+                "avg_token_payment_prob_ratio": 0.09481211123310584
+            },
+            {
+                "outcome": "At Alpha Airlines, we're excited to whisk you away to the tropical paradise of Hawaii. Experience the magic of the Beta Resort, where the sun, sand, and spectacular views await you.",
+                "outcome_length": 181,
+                "num_of_tokens": 38,
+                "name_appeared": 1,
+                "avg_chosen_token_probability": 0.49952864850025724,
+                "name_appearance_score": 0.36464088397790057,
+                "llm_evaluation_score": 4,
+                "payment": 10.554449081420898,
+                "avg_payment_per_token": 0.27774866003739207,
+                "avg_token_payment_prob_ratio": 0.3612622613735008
+            }
+        ],
+        "averages": {
+            "name_appeared": 1.0,
+            "avg_prob": 0.5121387754271164,
+            "name_appear_score": 0.5578478681492879,
+            "payment": 11.70755672454834,
+            "llm_score": 4.5,
+            "avg_pay_token": 0.2817706007706492,
+            "avg_pay_prob_ratio": 0.22803718630330333
+        }
+    },
+    "averages": {
+        "avg_outcome_length": 209.0,
+        "avg_num_of_tokens": 41.5
+    },
+    "auction_model": "Qwen/Qwen2-1.5B-Instruct",
+    "eval_model": "gpt-4o-mini"
+}
